@@ -121,15 +121,15 @@
             }
 
             .card {
-                background: var(--glass);
-                backdrop-filter: blur(25px);
-                border: 1px solid rgba(255, 255, 255, 0.12);
-                border-radius: 30px;
-                padding: 40px;
-                height: 600px;
-                display: flex;
-                flex-direction: column;
-            }
+    background: linear-gradient(180deg, #0033cc 0%, #001a66 100%); /* Синий градиент как на фото */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 35px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
 
             .slider-box {
                 padding: 0 !important;
@@ -274,21 +274,31 @@
             →
         </button>
 
-        <section id="page1" class="page active">
-            <header class="header"><h1>ExtraTime Telegram</h1></header>
-            <div class="main-grid">
-                <div class="card">
-                    <span class="db-section-title">HISTORY</span>
-                    <h2 style="font-size: 35px; margin: 0">2 February</h2>
-                    <p style="opacity: 0.5">foundation</p>
-                    <h2
-                        id="days-count"
-                        style="font-size: 35px; margin-top: 40px"
-                    >
-                        ---
-                    </h2>
-                    <p style="opacity: 0.5">days active</p>
-                </div>
+       <div class="card">
+    <span class="title-sec">HISTORY</span>
+    
+    <h2>2 February</h2>
+    <p>Creation</p>
+
+    <h2 id="days-count">16 Days</h2>
+    <p>We exist for days</p>
+
+    <h2>17 February</h2>
+    <p>New</p>
+</div>
+
+<div class="card">
+    <span class="title-sec">CONTACT INFO</span>
+    
+    <span class="contact-label">связаться с нами</span>
+    <a href="https://t.me/Sqvnix" class="contact-link">t.me/Sqvnix</a>
+    
+    <span class="contact-label" style="margin-top:20px">тикет бот</span>
+    <a href="https://t.me/ExtraTimeTicket_bot" class="contact-link">@ExtraTimeTicket_bot</a>
+
+    <span class="contact-label" style="margin-top:20px">appeals bot</span>
+    <a href="https://t.me/ExtraTimeAppeals_bot" class="contact-link">@ExtraTimeAppeals_bot</a>
+</div>
                 <div class="card">
                     <span class="db-section-title">CONTACTS</span>
                     <p style="opacity: 0.5">founder</p>
